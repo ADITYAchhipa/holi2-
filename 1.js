@@ -28,8 +28,8 @@ function mouse(){
 
 function mouseHover(){
   count++;
-    const i=Math.floor(Math.random()*200)+100;
-    const j=Math.floor(Math.random()*200)+100;
+    const i=Math.floor(Math.random()*200)+10;
+    const j=Math.floor(Math.random()*200)+10;
   
     b.style.left=i+"px"
     b.style.top=j+"px"
