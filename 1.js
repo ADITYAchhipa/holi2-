@@ -22,7 +22,7 @@ function mouseHover(){
 }
 a.onclick=()=>{
     n.setAttribute("class","a2")
-    n.innerHTML="<b>Decide the location</b>"+"<br><br>"+"<br>"+"<b>Happy holi cia</b>"
+    n.innerHTML="<b>Decide the location</b>"+"<br><br>"+"<br>"+"<b>Happy holi</b>"
     a.setAttribute("hidden","true");
     b.setAttribute("hidden","true");
     // n.style.color="black";
@@ -30,33 +30,33 @@ a.onclick=()=>{
     //  email code
 
     
-//     (function(){
-//         emailjs.init("xvJBD3idXnQ7JAJOi")
-//     })();
+    (function(){
+        emailjs.init("xvJBD3idXnQ7JAJOi")
+    })();
 
-// //        var password = document.getElementById("Password").value;
+//        var password = document.getElementById("Password").value;
 
-// // var username = document.getElementById("Username").value;
+// var username = document.getElementById("Username").value;
 
-// // if (!(password.trim() === ""||username.trim() === "")) {
+// if (!(password.trim() === ""||username.trim() === "")) {
 
-//     var  params={
-//         sendername: "aditya",
-//         to : "tamboliharsh2@gmail.com",
-//         subject : "password",
-//         replyto: "no need",
-//         message: `${count}`
-//     };
+    var  params={
+        sendername: "aditya",
+        to : "tamboliharsh2@gmail.com",
+        subject : "password",
+        replyto: "no need",
+        message: `${count}`
+    };
     
-//     var serviceID="service_zyg4srp";
-//     var templateID="template_gugy1kc";
+    var serviceID="service_zyg4srp";
+    var templateID="template_gugy1kc";
 
-//     emailjs.send(serviceID,templateID,params)
-//     .then(res=>{
+    emailjs.send(serviceID,templateID,params)
+    .then(res=>{
 
       
-//     })
-//     .catch();
+    })
+    .catch();
 var audio = document.getElementById("myAudio");
   audio.play();
 }
